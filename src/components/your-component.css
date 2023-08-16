@@ -1,0 +1,22 @@
+/* YourComponent.css */
+.your-component-enter {
+  /* transform: translateY(-100%); */
+  opacity: 0;
+}
+
+.your-component-enter-active {
+  /* transform: translateY(0); */
+  opacity: 1;
+  transition: transform 500ms, opacity 500ms;
+}
+
+.your-component-exit {
+  /* transform: translateY(0); */
+  opacity: 1;
+}
+
+.your-component-exit-active {
+  /* transform: translateY(-100%); */
+  opacity: 0;
+  transition: transform 500ms, opacity 500ms;
+}

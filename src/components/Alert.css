@@ -1,0 +1,17 @@
+/* Alert modal CSS transitions */
+.Alert-enter {
+    opacity: 0;
+    
+  }
+  .Alert-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  
+  .Alert-exit {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  .Alert-exit-active {
+    opacity: 0;
+  }
